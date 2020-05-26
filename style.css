@@ -1,4 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+#page-wrapper {
+    background-color: #aaa;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+#nav-bar {
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav-bar a {
+    padding: 18px 40px 10px 40px;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+#nav-bar-logo {
+    margin-right: auto;
+}
+
+#form-section {
+    height: 300px;
+}
+
+h1 {
+    font-weight: 300;
+    text-align: center;
 }
